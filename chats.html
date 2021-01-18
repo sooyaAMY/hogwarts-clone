@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Casper Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+                <span class="cog__alarm"></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <a href="chat.html">
+         <div class="user-component user-component__margin">
+            <div class="user-component__column">
+                <div class="user-component__group">
+                 <img src="https://i.pinimg.com/originals/5a/12/74/5a1274f0652f47bf66a6725c85de87ac.png" class="user-component__avatar user-component__avatar--sm user-component__avatar__position1" />
+                 <img src="https://i.pinimg.com/originals/ad/db/b9/addbb9309e0df66da154a9b79f300706.jpg" class="user-component__avatar user-component__avatar--sm user-component__avatar__position2" />
+                </div>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Hermione Granger,Ronald...</h4>
+                    <h6 class="user-component__subtitle">
+                        How about grabbing some dinner?
+                    </h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">18:40</span>
+                <div class="badge">1</div>
+            </div>
+         </div>
+        </a>
+
+        <div class="user-component user-component__margin">
+            <div class="user-component__column">
+                <img src="https://pm1.narvii.com/6826/eeb7b717b8ebd3885008c177ebab15fcbca07cddv2_00.jpg" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Dobby</h4>
+                    <h6 class="user-component__subtitle">
+                        Dobby is free!!!
+                    </h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">16:30</span>
+            </div>
+         </div>
+
+         <div class="user-component user-component__margin">
+            <div class="user-component__column">
+                <img src="https://assets.ptimgs.com/ptimgs/rk/images/dp/wcm/202040/0155/harry-potter-gryffindor-trunk-c.jpg" class="user-component__avatar user-component__avatar--sm" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Gryffindor Group Chat</h4>
+                    <h6 class="user-component__subtitle">
+                        ok, see you then
+                    </h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">16:17</span>
+            </div>
+         </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fas fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsisdot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Your screen is too big :(</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e811f155b6.js" crossorigin="anonymous"></script>
+</body>
+</html>

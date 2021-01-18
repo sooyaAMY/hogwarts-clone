@@ -1,0 +1,77 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/4c/65/f9/4c65f913798dcd566fb929d0973a37e6.jpg");
+  background-color: #dcbb85;
+}
+
+.welcome-header {
+  margin: 90px 0px 60px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #351f12;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.footprint {
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+  background-color: transparent;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 2px solid rgb(48, 17, 22, 0.4);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: #351f12;
+  opacity: 0.5;
+  font-family: "Quattrocento", serif;
+}
+
+#login-form input:focus {
+  border-color: #351f12;
+}
+
+#login-form input[type="submit"] {
+  background-color: #351f12;
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  color: #dcbb85;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(48, 17, 22, 0.8);
+  font-size: 13px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Hogwarts Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Hogwarts Clone</h1>
+        <p class="welcome-header__text">
+         If you have a Hogwarts School Account, log in with your email or phone number.
+        </p>
+        <img class="footprint" src="http://clipart-library.com/images_k/harry-potter-clipart-transparent/harry-potter-clipart-transparent-8.png" />
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="Email or phone number" />
+        <input name="password" required type="passowrd" placeholder="Password" />
+        <input type="submit" value="Log in" />
+        <a href="#">Find Hogwarts Account or Password</a>
+    </form>
+
+    <div id="splash-screen">
+        <img src="https://ww.namu.la/s/3631ad49c6c3d25f83b713123da742c276a27f351d8bc21dc3a41186f8565fb49d9ecf844b6c68edd5f862f8ae77d44f8fc012246cdf5b4249dae03ec60509e364234c19aceaf8054cae25ceba757b9ba996354d41547bb1138b53c63bb01da2f13c8338b9aade8781c9e458a5c6d03b" />
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is too big :(</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e811f155b6.js" crossorigin="anonymous"></script>
+</body>
+</html>

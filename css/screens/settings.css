@@ -1,0 +1,16 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(48, 17, 22, 0.3);
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #351f12;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+  color: #351f12;
+}
